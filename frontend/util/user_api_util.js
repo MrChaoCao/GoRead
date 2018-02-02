@@ -5,10 +5,14 @@ export const fetchUser = (id) => (
   })
 )
 
-export const createUser = user => (
-  $.ajax({
-    method: "POST",
-    url: `api/users`,
-    data: { user },
-  })
-)
+export const createUser = user => {
+
+  return(
+
+    $.ajax({
+      method: "POST",
+      url: `api/users`,
+      data: { user },
+    })
+  )
+}
