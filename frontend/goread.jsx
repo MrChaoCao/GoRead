@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as UserAPIUtil from './util/user_api_util.js';
-// import { createNewUser } from './util/session_api_util.js';
-import * as SessionActions from './actions/session_actions';
 import configureStore from './store/store'
+import Root from './components/root';
 
 document.addEventListener('DOMContentLoaded', () => {
-  // window.fetchUser = UserAPIUtil.fetchUser;
-  // window.createUser = UserAPIUtil.createUser;
   const store = configureStore();
-  // window.postSession = SessionAPIUtil.postSession;
-  // window.deleteSession = SessionAPIUtil.deleteSession;
+  //Testing
   window.getState = store.getState;
   window.dispatch = store.dispatch;
-
-  window.createUser = SessionActions.createNewUser;
-  window.loginUser = SessionActions.login;
+  //Testing
   const root = document.getElementById('root');
-  ReactDOM.render(<h1>Welcome to Go Read</h1>, root);
+  ReactDOM.render(<Root store={store}/>, root);
 });
