@@ -8,21 +8,7 @@ export const fetchUser = (id) => (
 export const createUser = user => (
   $.ajax({
     method: "POST",
-    url: `api/users`
-    data: { user }
-  })
-)
-
-export const createSession = session => (
-  $.ajax({
-    method: "POST",
-    url: `api/session`
-  })
-)
-
-export const deleteSession = session => (
-  $.ajax({
-    method: "DELETE",
-    url: `api/session`
+    url: `api/users`,
+    data: { user },
   })
 )
