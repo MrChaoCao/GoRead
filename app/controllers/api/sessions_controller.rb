@@ -1,4 +1,7 @@
 class Api::SessionsController < ApplicationController
+
+
+
   def new
 
   end
@@ -8,14 +11,18 @@ class Api::SessionsController < ApplicationController
 
     if @user
       login(@user)
-      # redirect_to links_url
+      render "api/users/show"
     else
-      flash[:errors] = ["Invalid login credentials"]
-      # render :new
+      render json: ["Invalid username/password combination"], status: 401
     end
   end
 
   def destroy
-    logout
+    if current_user
+      logout
+      render json: {}
+    else
+      render json: ['No user to logout'], status: 404
+    end
   end
 end
