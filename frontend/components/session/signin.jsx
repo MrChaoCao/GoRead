@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Signup extends React.Component {
+class Signin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,7 +19,7 @@ class Signup extends React.Component {
 
   handleSubmit(event){
     event.preventDefault();
-    this.props.createNewUser(this.state).then(() => this.props.history.push('/chirps'));
+    this.props.login(this.state).then(() => this.props.history.push('/chirps'));
     // home page will replace chirps
   }
 
@@ -26,26 +27,31 @@ class Signup extends React.Component {
   render () {
     return (
       <div className="session-form">
-        <h2>Sign Up!</h2>
+        <h2>Sign In!</h2>
         <form>
-          <label>Username:
+          <label>
             <input
               type="text"
+              placeholder="Username"
               value={this.state.username}
               onChange={this.handleInput('username')}/>
           </label>
 
-          <label>Password:
+          <label>
             <input
               type="password"
+              placeholder="Password"
               value={this.state.password}
               onChange={this.handleInput('password')}/>
           </label>
-          <button onClick={this.handleSubmit}>Sign Up</button>
+          <button onClick={this.handleSubmit}>Sign In</button>
         </form>
+        <nav className="login-signup">
+          <Link to="/signup">Sign up!</Link>
+        </nav>
       </div>
     )
   }
 }
 
-export default Signup;
+export default Signin;
