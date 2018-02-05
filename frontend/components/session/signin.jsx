@@ -23,6 +23,17 @@ class Signin extends React.Component {
       // home page will replace chirps
   }
 
+  demoUser(){
+    return (event) => {
+      this.props.login(
+       {
+          'username': "demouser",
+          'password': "password",
+        }
+      )
+    }
+  }
+
   componentWillReceiveProps(nextProps) {
     if (nextProps.loggedIn) {
       this.props.history.push('/');
@@ -46,7 +57,7 @@ class Signin extends React.Component {
       <div className="session-form">
         <p>Sign In!</p>
         {this.renderErrors()}
-        <form>
+        <form onSubmit ={this.handleSubmit} >
           <label>
             <input
               type="text"
@@ -64,7 +75,8 @@ class Signin extends React.Component {
               value={this.state.password}
               onChange={this.handleInput('password')}/>
           </label>
-          <button onClick={this.handleSubmit}>Sign In</button>
+          <button>Sign In</button>
+          <button onClick={this.demoUser()}>DEMO</button>
         </form>
         <nav className="login-signup">
           <Link to="/signup">Sign up!</Link>

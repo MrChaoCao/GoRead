@@ -12,6 +12,7 @@ import {
 import GreetingContainer from './greeting/greeting_container';
 import NavbarContainer from './navbar/navbar_container';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
+import tempHome from './temphome/temphome';
 
 const App = () => (
   <div>
@@ -23,8 +24,11 @@ const App = () => (
     </header>
 
     <Switch>
+      <Route exact path="/" component={tempHome}
+        />
       <AuthRoute path="/signin" component={SigninContainer} />
       <AuthRoute exact path="/signup" component={SignupContainer} />
+      <Route render={ () => <Redirect to="/"/> }/>
     </Switch>
   </div>
 );
