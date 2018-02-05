@@ -27,11 +27,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "build:watch": "webpack --watch",
-    "postinstall": "webpack",
-    "start": "webpack --watch"
+    "postinstall": "webpack"
   },
   "keywords": [],
   "author": "",
