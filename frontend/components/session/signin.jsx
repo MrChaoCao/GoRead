@@ -20,14 +20,32 @@ class Signin extends React.Component {
   handleSubmit(event){
     event.preventDefault();
     this.props.login(this.state).then(() => this.props.history.push('/chirps'));
-    // home page will replace chirps
+      // home page will replace chirps
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.loggedIn) {
+      this.props.history.push('/');
+    }
+  }
+
+  renderErrors() {
+    return(
+      <ul>
+        {this.props.errors.map((error, i) => (
+          <li key={`error-${i}`}>
+            {error}
+          </li>
+        ))}
+      </ul>
+    );
+  }
 
   render () {
     return (
       <div className="session-form">
-        <h2>Sign In!</h2>
+        <p>Sign In!</p>
+        {this.renderErrors()}
         <form>
           <label>
             <input
@@ -36,6 +54,8 @@ class Signin extends React.Component {
               value={this.state.username}
               onChange={this.handleInput('username')}/>
           </label>
+
+
 
           <label>
             <input

@@ -26,8 +26,8 @@ export const receiveErrors = errors => ({
 });
 
 export const createNewUser = (formUser) => dispatch => (
-  createUser(formUser).then(user => dispatch(receiveCurrentUser(user)))
-);
+  createUser(formUser).then(user => dispatch(receiveCurrentUser(user)), err => dispatch(receiveErrors(err.responseJSON))
+));
 
 export const login = formUser => dispatch => ( postSession(formUser).then(user => dispatch(receiveCurrentUser(user)), err => dispatch(receiveErrors(err.responseJSON))
 ));

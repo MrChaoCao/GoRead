@@ -1,6 +1,10 @@
 {
   "name": "goread",
   "private": true,
+  "engines": {
+    "node": "8.9.2",
+    "npm": "5.5.1"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -25,7 +29,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "build:watch": "webpack --watch"
+    "build:watch": "webpack --watch",
+    "postinstall": "webpack",
+    "start": "webpack --watch"
   },
   "keywords": [],
   "author": "",
