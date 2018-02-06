@@ -18,14 +18,14 @@ const App = () => (
   <div>
     <header>
       <Link to="/" className = "header-link">
-        <div>Go Read</div>
+        <img className="icon" src={window.staticImages.bookicon}></img>
+        go read
       </Link>
       <NavbarContainer/>
     </header>
 
     <Switch>
-      <Route exact path="/" component={tempHome}
-        />
+      <Route exact path="/" component={tempHome}/>
       <AuthRoute exact path="/signup" component={SignupContainer} />
       <Route render={ () => <Redirect to="/"/> }/>
     </Switch>

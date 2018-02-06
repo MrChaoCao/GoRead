@@ -50,7 +50,7 @@ class Signin extends React.Component {
 
   renderErrors() {
     return(
-      <ul>
+      <ul className="errors">
         {this.props.errors.map((error, i) => (
           <li key={`error-${i}`}>
             {error}
@@ -67,8 +67,8 @@ class Signin extends React.Component {
   render () {
     return (
       <div className="session-form">
-        <p>Sign In!</p>
         {this.props.location.pathname === '/' && this.renderErrors()}
+
         <form onSubmit ={this.handleSubmit} >
           <label>
             <input
@@ -78,8 +78,6 @@ class Signin extends React.Component {
               onChange={this.handleInput('username')}/>
           </label>
 
-
-
           <label>
             <input
               type="password"
@@ -87,11 +85,13 @@ class Signin extends React.Component {
               value={this.state.password}
               onChange={this.handleInput('password')}/>
           </label>
+
           <button>Sign In</button>
-          <button onClick={this.demoUser()}>DEMO</button>
+          <button onClick={this.demoUser()}>Demo</button>
+
         </form>
         <nav className="login-signup">
-          <Link to="/signup">Sign up!</Link>
+          <Link to="/signup">Don't have an Account? Sign up instead!</Link>
         </nav>
       </div>
     )

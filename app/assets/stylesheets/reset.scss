@@ -1,4 +1,4 @@
-@import "fonts";
+// @import "fonts";
 
 html, body, header, nav, h1, a,
 ul, li, strong, main, button, i,
@@ -10,7 +10,7 @@ span, article, footer, time, small {
   border: 0;
   outline: 0;
   font-size: 100%;
-  font-family: $sans-serif;
+  font-family: sans-serif;
   color: #000;
   text-align: inherit;
   text-decoration:none;

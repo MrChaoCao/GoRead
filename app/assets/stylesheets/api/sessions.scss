@@ -1,3 +1,57 @@
 // Place all the styles related to the Api::Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+  .header-link {
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+  }
+
+  .icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-right {
+    .session-form {
+      margin: 15px;
+      font-size: 10px;
+
+      label input {
+        width: 120px;
+        padding: 5px;
+        background-color: #fafafa;
+        font-size: 10px;
+        margin-left: 10px;
+        border-radius: 4px;
+        border: #999 1px solid;
+        width: 80px;
+      }
+
+      button {
+        margin-left: 0px;
+        background-color: white;
+        color: black;
+        border-radius: 1px;
+        text-align: center;
+        width: 35px;
+        height: 15px;
+        padding: 2px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+html {
+    background-color: #fafafa;
+}

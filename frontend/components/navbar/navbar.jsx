@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 import SigninContainer from '../session/signin_container';
 
 const sessionLinks = () => (
-  <nav className="login-signup">
+  <nav className="nav-right">
     <SigninContainer/>
   </nav>
 );
 
 const userIcons = (currentUser, logout) => (
-	<hgroup className="header-group">
+	<nav className="nav-right">
     <h2 className="header-name"> {currentUser.username}</h2>
     <button className="header-button" onClick={logout}>Log Out</button>
-	</hgroup>
+	</nav>
 );
 
 const Navbar = ({ currentUser, logout }) => (

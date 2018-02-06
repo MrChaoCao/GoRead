@@ -8,6 +8,12 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
+  <script type="text/javascript">
+    window.staticImages = {
+  	  bookicon: "<%= asset_url "icon.png" %>"
+    }
+  </script>
+
   <body>
     <%= yield %>
   </body>
