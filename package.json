@@ -27,7 +27,8 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "webpack": "webpack -w"
   },
   "keywords": [],
   "author": "",
