@@ -19,7 +19,7 @@ const App = () => (
     <header>
       <Link to="/" className = "header-link">
         <img className="icon" src={window.staticImages.bookicon}></img>
-        go read
+        Go read
       </Link>
       <NavbarContainer/>
     </header>

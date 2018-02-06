@@ -90,9 +90,6 @@ class Signin extends React.Component {
           <button onClick={this.demoUser()}>Demo</button>
 
         </form>
-        <nav className="login-signup">
-          <Link to="/signup">Don't have an Account? Sign up instead!</Link>
-        </nav>
       </div>
     )
   }
