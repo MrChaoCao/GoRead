@@ -68,7 +68,7 @@ class Signin extends React.Component {
     return (
       <div className="session-form">
         <p>Sign In!</p>
-        {this.renderErrors()}
+        {this.props.location.pathname === '/' && this.renderErrors()}
         <form onSubmit ={this.handleSubmit} >
           <label>
             <input
