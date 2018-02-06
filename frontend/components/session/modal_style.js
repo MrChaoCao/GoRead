@@ -12,14 +12,13 @@ const style={
       top: '40px',
       left: '200px',
       right: '200px',
-      bottom: '70px',
+      bottom: '220px',
       border: '1px solid #ccc',
-      background: '#fff',
+      background: '#fafafa',
       overflow: 'auto',
       WebkitOverflowScrolling: 'touch',
       borderRadius: '4px',
       outline: 'none',
-      padding: '20px'
     }
   }
 

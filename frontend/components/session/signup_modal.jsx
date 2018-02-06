@@ -37,24 +37,18 @@ class SignupModal extends React.Component {
     }
   }
 
-  componentWillMount(){
-    this.clearSessionErrors();
-  }
-
-  componentWillUnmount(){
-    this.clearSessionErrors();
-  }
-
   clearSessionErrors(){
     this.props.clearErrors();
   }
 
   closeModal(){
     this.setState( {modalOpen: false} );
+    this.clearSessionErrors();
   }
 
   openModal(){
     this.setState( {modalOpen: true} );
+    this.clearSessionErrors();
   }
 
   renderErrors() {
@@ -79,9 +73,11 @@ class SignupModal extends React.Component {
           onRequestClose={this.closeModal}
           style={style}>
 
-          <div className="session-form">
+          <div className="signup-form">
+            <button className="closebutt" onClick={this.closeModal}>x</button>
             <h2>Sign Up!</h2>
             {this.renderErrors()}
+            <br/>
             <form>
               <label>Username:
                 <input
@@ -89,23 +85,22 @@ class SignupModal extends React.Component {
                   value={this.state.username}
                   onChange={this.handleInput('username')}/>
               </label>
-
-              <label>E-mail:
+              <br/>
+              <label>Email:
                 <input
                   type="text"
                   value={this.state.email}
                   onChange={this.handleInput('email')}/>
               </label>
-
-
+              <br/>
               <label>Password:
                 <input
                   type="password"
                   value={this.state.password}
                   onChange={this.handleInput('password')}/>
               </label>
+              <br/>
               <button onClick={this.handleSubmit}>Sign Up</button>
-              <Link to={"/"}>close</Link>
             </form>
           </div>
 
