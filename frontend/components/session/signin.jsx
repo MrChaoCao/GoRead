@@ -9,6 +9,7 @@ class Signin extends React.Component {
       password: "",
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.clearSessionErrors = this.clearSessionErrors.bind(this);
   }
 
   handleInput(type){
@@ -21,10 +22,12 @@ class Signin extends React.Component {
     event.preventDefault();
     this.props.login(this.state).then(() => this.props.history.push('/chirps'));
       // home page will replace chirps
+    this.clearSessionErrors();
   }
 
   demoUser(){
     return (event) => {
+      this.clearSessionErrors();
       this.props.login(
        {
           'username': "demouser",
@@ -37,6 +40,7 @@ class Signin extends React.Component {
   componentWillReceiveProps(nextProps) {
     if (nextProps.loggedIn) {
       this.props.history.push('/');
+      this.clearSessionErrors();
     }
   }
 
@@ -50,6 +54,10 @@ class Signin extends React.Component {
         ))}
       </ul>
     );
+  }
+
+  clearSessionErrors(){
+    this.props.clearErrors();
   }
 
   render () {

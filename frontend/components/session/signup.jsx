@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Signup extends React.Component {
   constructor(props) {
@@ -8,6 +9,7 @@ class Signup extends React.Component {
       password: "",
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.clearSessionErrors = this.clearSessionErrors.bind(this);
   }
 
   handleInput(type){
@@ -19,6 +21,7 @@ class Signup extends React.Component {
   handleSubmit(event){
     event.preventDefault();
     this.props.createNewUser(this.state).then(() => this.props.history.push('/chirps'));
+    this.clearSessionErrors();
     // home page will replace chirps
   }
 
@@ -26,6 +29,18 @@ class Signup extends React.Component {
     if (nextProps.loggedIn) {
       this.props.history.push('/');
     }
+  }
+
+  componentWillMount(){
+    this.clearSessionErrors();
+  }
+
+  componentWillUnmount(){
+    this.clearSessionErrors();
+  }
+
+  clearSessionErrors(){
+    this.props.clearErrors();
   }
 
   renderErrors() {
@@ -60,6 +75,7 @@ class Signup extends React.Component {
               onChange={this.handleInput('password')}/>
           </label>
           <button onClick={this.handleSubmit}>Sign Up</button>
+          <Link to={"/"}>close</Link>
         </form>
       </div>
     )
