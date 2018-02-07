@@ -1,0 +1,2 @@
+class ShelfMembership < ApplicationRecord
+end
