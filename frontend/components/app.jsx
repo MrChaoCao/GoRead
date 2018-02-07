@@ -8,10 +8,11 @@ import {
   Link,
   HashRouter
 } from 'react-router-dom';
+import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 import GreetingContainer from './greeting/greeting_container';
 import NavbarContainer from './navbar/navbar_container';
-import { AuthRoute, ProtectedRoute } from '../util/route_util';
+import BookIndexContainer from './books/book_index_container';
 import tempHome from './temphome/temphome';
 
 const App = () => (
@@ -22,7 +23,9 @@ const App = () => (
         Go read
       </Link>
       <NavbarContainer/>
+      <BookIndexContainer/>
     </header>
+
 
     <Switch>
       <Route exact path="/" component={tempHome}/>
