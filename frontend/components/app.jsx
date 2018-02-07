@@ -23,8 +23,8 @@ const App = () => (
         Go read
       </Link>
       <NavbarContainer/>
-      <BookIndexContainer/>
     </header>
+    <BookIndexContainer/>
 
 
     <Switch>
