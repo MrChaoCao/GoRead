@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SigninContainer from '../session/signin_container';
-import SignupContainer from '../session/signup_container';
 import SignupModalContainer from '../session/signup_modal_container';
 
 const sessionLinks = () => (

@@ -65,7 +65,7 @@ class SignupModal extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="signup-button">
         <p onClick={this.openModal}>Don't have an account? Sign up instead!</p>
         <Modal
           contentLabel="Modal"

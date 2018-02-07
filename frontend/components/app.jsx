@@ -1,6 +1,6 @@
 import React from 'react';
-import SignupContainer from './session/signup_container';
-import SigninContainer from './session/signin_container'
+import SigninContainer from './session/signin_container';
+import SignupModalContainer from './session/signup_modal_container';
 import {
   Route,
   Redirect,
@@ -29,7 +29,8 @@ const App = () => (
 
     <Switch>
       <Route exact path="/" component={tempHome}/>
-      <AuthRoute exact path="/signup" component={SignupContainer} />
+      <AuthRoute exact path="/signup" component={SignupModalContainer} />
+
       <Route render={ () => <Redirect to="/"/> }/>
     </Switch>
   </div>
