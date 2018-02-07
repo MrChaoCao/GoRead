@@ -19,7 +19,8 @@ ActiveRecord::Schema.define(version: 20180206183108) do
     t.string "title", null: false
     t.string "author", null: false
     t.string "img_url", null: false
-    t.string "description", null: false
+    t.string "publish_date", null: false
+    t.text "description", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["title"], name: "index_books_on_title", unique: true
