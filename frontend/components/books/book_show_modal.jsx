@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
+import style from './show_modal_style';
 // import style from './modal_style'
 
 class BookShowModal extends React.Component {
@@ -35,6 +36,7 @@ class BookShowModal extends React.Component {
           contentLabel="Modal"
           isOpen={this.state.modalOpen}
           onRequestClose={this.closeModal}
+          style={style}
           >
             {this.props.book.title}
             {this.props.book.author}
