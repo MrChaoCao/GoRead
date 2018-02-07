@@ -1,6 +1,18 @@
 // Place all the styles related to the api/books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.indexBook{
+.index-book{
+  display: inline-block;
   width: 200px;
+  margin: 5px;
+  font-size: 10px;
+
+  .book-cover{
+
+  }
+
+  .book-cover:hover{
+    transform: scale(1.01);
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
+  }
 }
