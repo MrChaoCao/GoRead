@@ -3,7 +3,7 @@ class Api::ShelfMembershipsController < ApplicationController
     @shelf_membership = ShelfMembership.new(shelf_membership_params)
     if @shelf_membership.save
       @shelf = @shelf_membership.shelf
-      render json: 'api/shelves/show'
+      render json: 'api/shelves/show', status: 200
     else
       render json: @shelf_membership.errors.full_messages, status: 401
     end
@@ -14,7 +14,7 @@ class Api::ShelfMembershipsController < ApplicationController
     if @shelf_membership
       @shelf_membership.destroy
       @shelf = @shelf_membership.shelf
-      render json: 'api/shelves/show'
+      render json: 'api/shelves/show', status: 200
     else
       render json: ["Book is not in this collection"], status: 404
     end
