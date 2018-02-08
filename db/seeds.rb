@@ -247,5 +247,88 @@ books = Book.create!(
       For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
       publish_date: '1811',
     }
+    {
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: "J.K. Rowling",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
+      publish_date: 'June 26, 1997',
+    }
+    {
+      title: "Harry Potter and the Chamber of Secrets",
+      author: "J.K. Rowling",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.
+
+      And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockheart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny.
+
+      But each of these seem minor annoyances when the real trouble begins, and someone--or something--starts turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects...Harry Potter himself?",
+      publish_date: "July 2, 1998",
+    }
+    {
+      title: "Harry Potter and the Prisoner of Azkaban",
+      author: "J.K. Rowling",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51gY5jzz3NL._SX340_BO1,204,203,200_.jpg',
+      description: "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort.
+
+      Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkban guards heard Black muttering in his sleep, \"He's at Hogwarts...he's at Hogwarts.\"
+
+      Harry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst.",
+      publish_date: "July 8, 1999",
+    }
+    {
+      title: "Harry Potter and the Goblet of Fire",
+      author: "J.K. Rowling",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51jawTJWjnL._SX328_BO1,204,203,200_.jpg',
+      description: "Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year, an event involving two other rival schools of magic, and a competition that hasn't happened for a hundred years. He wants to be a normal, fourteen-year-old wizard. But unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be deadly.",
+      publish_date: "July 8, 2000",
+    }
+    {
+      title: "Harry Potter and the Order of the Phoenix",
+      author: "J.K. Rowling",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51T33oK0w0L._SX341_BO1,204,203,200_.jpg',
+      description: "In his fifth year at Hogwart's, Harry faces challenges at every turn, from the dark threat of He-Who-Must-Not-Be-Named and the unreliability of the government of the magical world to the rise of Ron Weasley as the keeper of the Gryffindor Quidditch Team. Along the way he learns about the strength of his friends, the fierceness of his enemies, and the meaning of sacrifice.",
+      publish_date: "June 21, 2003",
+    }
+    {
+      title: "Harry Potter and the Half-Blood Prince",
+      author: "J.K. Rowling",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/51NbOxBO%2BBL._SX346_BO1,204,203,200_.jpg",
+      description: "The war against Voldemort is not going well; even the Muggles have been affected. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses.
+
+      And yet . . . as with all wars, life goes on. Sixth-year students learn to Apparate. Teenagers flirt and fight and fall in love. Harry receives some extraordinary help in Potions from the mysterious Half-Blood Prince. And with Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort -- and thus finds what may be his only vulnerability.",
+      publish_date: "July 16, 2005",
+    }
+    {
+      title: "Harry Potter and the Deathly Hallows",
+      author: "J.K. Rowling",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/51HQfN8sfVL._SX340_BO1,204,203,200_.jpg",
+      description: "Readers beware. The brilliant, breathtaking conclusion to J.K. Rowling's spellbinding series is not for the faint of heart--such revelations, battles, and betrayals await in Harry Potter and the Deathly Hallows that no fan will make it to the end unscathed. Luckily, Rowling has prepped loyal readers for the end of her series by doling out increasingly dark and dangerous tales of magic and mystery, shot through with lessons about honor and contempt, love and loss, and right and wrong. Fear not, you will find no spoilers in our review--to tell the plot would ruin the journey, and Harry Potter and the Deathly Hallows is an odyssey the likes of which Rowling's fans have not yet seen, and are not likely to forget. But we would be remiss if we did not offer one small suggestion before you embark on your final adventure with Harry--bring plenty of tissues.
+      The heart of Book 7 is a hero's mission--not just in Harry's quest for the Horcruxes, but in his journey from boy to man--and Harry faces more danger than that found in all six books combined, from the direct threat of the Death Eaters and you-know-who, to the subtle perils of losing faith in himself. Attentive readers would do well to remember Dumbledore's warning about making the choice between \"what is right and what is easy,\" and know that Rowling applies the same difficult principle to the conclusion of her series. While fans will find the answers to hotly speculated questions about Dumbledore, Snape, and you-know-who, it is a testament to Rowling's skill as a storyteller that even the most astute and careful reader will be taken by surprise.
+
+      A spectacular finish to a phenomenal series, Harry Potter and the Deathly Hallows is a bittersweet read for fans. The journey is hard, filled with events both tragic and triumphant, the battlefield littered with the bodies of the dearest and despised, but the final chapter is as brilliant and blinding as a phoenix's flame, and fans and skeptics alike will emerge from the confines of the story with full but heavy hearts, giddy and grateful for the experience.",
+      publish_date: "July 21, 2007",
+    }
+    {
+      title: ,
+      author: ,
+      img_url: ,
+      description: ,
+      publish_date: ,
+    }
+    {
+      title: ,
+      author: ,
+      img_url: ,
+      description: ,
+      publish_date: ,
+    }
+    {
+      title: ,
+      author: ,
+      img_url: ,
+      description: ,
+      publish_date: ,
+    }
   ]
 )
