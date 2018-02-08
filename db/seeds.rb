@@ -310,17 +310,70 @@ books = Book.create!(
       publish_date: "July 21, 2007",
     }
     {
-      title: ,
-      author: ,
-      img_url: ,
-      description: ,
-      publish_date: ,
+      title: 'Americanah',
+      author: "Chimamanda Ngozi Adichie",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51%2B2gACnS9L._SX333_BO1,204,203,200_.jpg',
+      description: "Ifemelu and Obinze are young and in love when they depart military-ruled Nigeria for the West. Beautiful, self-assured Ifemelu heads for America, where despite her academic success, she is forced to grapple with what it means to be black for the first time. Quiet, thoughtful Obinze had hoped to join her, but with post-9/11 America closed to him, he instead plunges into a dangerous, undocumented life in London. Fifteen years later, they reunite in a newly democratic Nigeria, and reignite their passion--for each other and for their homeland",
+      publish_date: 'May 14, 2013',
     }
     {
-      title: ,
-      author: ,
-      img_url: ,
-      description: ,
+      title: 'Colorless Tsukuru Tazaki and His Years of Pilgrimage',
+      author: "Haruki Murakami",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/41Tt7GjByRL._SX349_BO1,204,203,200_.jpg',
+      description: 'Colorless Tsukuru Tazaki and His Years of Pilgrimage is the remarkable story of a young man haunted by a great loss; of dreams and nightmares that have unintended consequences for the world around us; and of a journey into the past that is necessary to mend the present. Here Haruki Murakami—one of the most revered voices in literature today—gives us a story of love, friend­ship, and heartbreak for the ages.',
+      publish_date: 'April 12, 2013',
+    }
+    {
+      title: 'Things Fall Apart',
+      author: 'Chinua Achebe',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51FHR9fwdaL._SX331_BO1,204,203,200_.jpg',
+      description: 'Things Fall Apart is a 1958 English-language novel by Nigerian author Chinua Achebe. It is a staple book in schools throughout Africa and widely read and studied in English-speaking countries around the world. It is seen as the archetypal modern African novel in English, and one of the first African novels written in English to receive global critical acclaim. The novel depicts the life of Okonkwo, a leader and local wrestling champion in Umuofia—one of a fictional group of nine villages in Nigeria, inhabited by the Igbo people .Okonkwo is a wealthy and respected member of the Umuofia clan of the Ibo people of Nigeria in the late 1800s. Okonkwo seems to have everything: he has broken away from the weakness and disgrace of his father and is now a successful farmer with three wives and a position of leadership in his community. However, Okonkwo has difficulty controlling his temper, and one outburst of violence leads to his family’s banishment from their village for seven years. But that’s only the beginning of things falling apart for Okonkwo. While he’s away from his village, Christian missionaries from Europe arrive, bringing their own ideas about religion and life to the Ibo people. When Okonkwo finally returns, will his village be a place he can recognize, or will the missionaries have imposed on it a new culture beyond his understanding? Special Considerations: Possible sensitive issues in Things Fall Apart include violence, adult themes, and racism.',
+      publish_date: '1958',
+    }
+    {
+      title: 'The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing',
+      author: 'Marie Kondō',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/512oubYY-pL._SX354_BO1,204,203,200_.jpg',
+      description: "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing Japanese organizational consultant Marie Kondo takes tidying to a whole new level, promising that if you properly declutter your home once, you'll never have to do it again. Whereas most methods advocate a room-by-room or little-by-little approach, the KonMari Method's category-by-category, all-at-once prescription leads to lasting results. In fact, none of Kondo's clients have been repeat customers (and she still has a three-month waiting list of new customers!). With detailed guidance for every type of item in the household, this quirky little manual from Japan's newest lifestyle phenomenon will help readers clear their clutter and enjoy the unique magic of a tidy home--and the calm, motivated mindset it can inspire.",
+      publish_date: 'January 15, 2011',
+    }
+    {
+      title: 'Anna Karenina',
+      author: 'Lev Nikolayevich Tolstoy',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/514tG8HMsrL._SX317_BO1,204,203,200_.jpg',
+      description: "Anna Karenina is one of the most loved and memorable heroines of literature. Her overwhelming charm dominates a novel of unparalleled richness and density. Tolstoy considered this book to be his first real attempt at a novel form, and it addresses the very nature of society at all levels,- of destiny, death, human relationships and the irreconcilable contradictions of existence. It ends tragically, and there is much that evokes despair, yet set beside this is an abounding joy in life's many ephemeral pleasures, and a profusion of comic relief.",
+      publish_date: '1877',
+    }
+    {
+      title: 'The Brothers Karamazov',
+      author: 'Fyodor Dostoyevsky',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51q70YgDo7L._SX324_BO1,204,203,200_.jpg',
+      description: "Fyodor Dostoyevsky's powerful meditation on faith, meaning and morality, The Brothers Karamazov is translated with an introduction and notes by David McDuff in Penguin Classics. When brutal landowner Fyodor Karamazov is murdered, the lives of his sons are changed irrevocably: Mitya, the sensualist, whose bitter rivalry with his father immediately places him under suspicion for parricide; Ivan, the intellectual, whose mental tortures drive him to breakdown; the spiritual Alyosha, who tries to heal the family's rifts; and the shadowy figure of their bastard half-brother Smerdyakov. As the ensuing investigation and trial reveal the true identity of the murderer, Dostoyevsky's dark masterpiece evokes a world where the lines between innocence and corruption, good and evil, blur and everyone's faith in humanity is tested. This powerful translation of The Brothers Karamazov features and introduction highlighting Dostoyevsky's recurrent themes of guilt and salvation, with a new chronology and further reading.",
+      publish_date: '1880',
+    }
+    {
+      title: "Swamplandia!",
+      author: 'Karen Russell',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/512BivR267L._SX335_BO1,204,203,200_.jpg',
+      description: 'Thirteen-year-old Ava Bigtree has lived her entire life at Swamplandia!, her family’s island home and gator-wrestling theme park in the Florida Everglades. But when illness fells Ava’s mother, the park’s indomitable headliner, the family is plunged into chaos; her father withdraws, her sister falls in love with a spooky character known as the Dredgeman, and her brilliant big brother, Kiwi, defects to a rival park called The World of Darkness.
+
+      As Ava sets out on a mission through the magical swamps to save them all, we are drawn into a lush and bravely imagined debut that takes us to the shimmering edge of reality.',
+      publish_date: 'February 1, 2011',
+    }
+    {
+      title: "The Storied Life of A. J. Fikry",
+      author: "Gabrielle Zevin",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/51oqJRpuk-L._SY291_BO1,204,203,200_QL40_.jpg",
+      description: "The Storied Life of A. J. Fikry is a heartwarming book about a lonely man who finds true love, happiness, and friendship. The story is about AJ, a disgruntled bookshop owner who doesn't care for anyone, including his customers. AJ gradually brings the love of books into the lives of the people on the island where he lives. He develops into a nicer and more dependable person over the years because of the love of a child. The author sets out to show the joy that books can bring into one's life and the importance of a thriving bookshop and literary culture in a community. ",
+      publish_date: '2013',
+    }
+    {
+      title: 'A Man Called Ove',
+      author: 'Fredrik Backman ',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51dQBC7HcaL._SX320_BO1,204,203,200_.jpg',
+      description: "Meet Ove. He’s a curmudgeon—the kind of man who points at people he dislikes as if they were burglars caught outside his bedroom window. He has staunch principles, strict routines, and a short fuse. People call him “the bitter neighbor from hell.” But must Ove be bitter just because he doesn’t walk around with a smile plastered to his face all the time?
+
+      Behind the cranky exterior there is a story and a sadness. So when one November morning a chatty young couple with two chatty young daughters move in next door and accidentally flatten Ove’s mailbox, it is the lead-in to a comical and heartwarming tale of unkempt cats, unexpected friendship, and the ancient art of backing up a U-Haul. All of which will change one cranky old man and a local residents’ association to their very foundations.",
       publish_date: ,
     }
     {
