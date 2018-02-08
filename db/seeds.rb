@@ -377,6 +377,63 @@ books = Book.create!(
       publish_date: ,
     }
     {
+      title: 'To Kill a Mockingbird',
+      author: 'Harper Lee',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51gSriWepkL._SY344_BO1,204,203,200_QL70_.jpg',
+      description: 'One of the best-loved stories of all time, To Kill a Mockingbird has been translated into more than forty languages, sold more than forty million copies worldwide, served as the basis for an enormously popular motion picture, and was voted one of the best novels of the twentieth century by librarians across the country. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father—a crusading local lawyer—risks everything to defend a black man unjustly accused of a terrible crime.',
+      publish_date: 'July 11, 1960',
+    }
+    {
+      title: "The Diary of Anne Frank",
+      author: "Anne Frank",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/51zgovybyAL._SX303_BO1,204,203,200_.jpg",
+      description: "In 1942, with the Nazis occupying Holland, a thirteen-year-old Jewish girl and her family fled their home in Amsterdam and went into hiding. For the next two years, until their whereabouts were betrayed to the Gestapo, the Franks and another family lived cloistered in the “Secret Annexe” of an old office building. Cut off from the outside world, they faced hunger, boredom, the constant cruelties of living in confined quarters, and the ever-present threat of discovery and death. In her diary Anne Frank recorded vivid impressions of her experiences during this period. By turns thoughtful, moving, and surprisingly humorous, her account offers a fascinating commentary on human courage and frailty and a compelling self-portrait of a sensitive and spirited young woman whose promise was tragically cut short.",
+      publish_date: 'June 25, 1947',
+    }
+    {
+      title: 'The Great Gatsby',
+      author: 'F. Scott Fitzgerald',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51khWutZqCL._SX325_BO1,204,203,200_.jpg',
+      description: "The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted \"gin was the national drink and sex the national obsession,\" it is an exquisitely crafted tale of America in the 1920s.
+
+      The Great Gatsby is one of the great classics of twentieth-century literature.",
+      publish_date: 'April 10, 1925',
+    }
+    {
+      title: '1984',
+      author: 'George Orwell',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51zy4SVNkxL._SX326_BO1,204,203,200_.jpg',
+      description: "“The Party told you to reject the evidence of your eyes and ears. It was their final, most essential command.”
+
+      Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can’t escape the fact that Big Brother is always watching...
+
+      A startling and haunting vision of the world, 1984 is so powerful that it is completely convincing from start to finish. No one can deny the influence of this novel, its hold on the imaginations of multiple generations of readers, or the resiliency of its admonitions—a legacy that seems only to grow with the passage of time.",
+      publish_date: 'June 8, 1949',
+    }
+    {
+      title: "Charlotte's Web",
+      author: 'E. B White',
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/61%2B3z1o4oUL._SX334_BO1,204,203,200_.jpg",
+      description: "Some Pig. Humble. Radiant. These are the words in Charlotte's Web, high up in Zuckerman's barn. Charlotte's spiderweb tells of her feelings for a little pig named Wilbur, who simply wants a friend. They also express the love of a girl named Fern, who saved Wilbur's life when he was born the runt of his litter.
+
+      E. B. White's Newbery Honor Book is a tender novel of friendship, love, life, and death that will continue to be enjoyed by generations to come. It contains illustrations by Garth Williams, the acclaimed illustrator of E. B. White's Stuart Little and Laura Ingalls Wilder's Little House series, among many other books.",
+      publish_date: "October 15, 1952",
+    }
+    {
+      title: ,
+      author: ,
+      img_url: ,
+      description: ,
+      publish_date: ,
+    }
+    {
+      title: ,
+      author: ,
+      img_url: ,
+      description: ,
+      publish_date: ,
+    }
+    {
       title: ,
       author: ,
       img_url: ,
