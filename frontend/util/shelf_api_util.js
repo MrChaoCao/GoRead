@@ -1,3 +1,9 @@
+export const fetchShelves = () => (
+  $.ajax({
+    method: 'GET',
+    url: `api/shelves`
+  })
+)
 export const fetchShelf = shelfId => (
   $.ajax({
     method: 'GET',
@@ -8,6 +14,21 @@ export const fetchShelf = shelfId => (
 export const createShelf = shelfName => (
   $.ajax({
     method: 'POST',
+    url: `api/shelves`,
+    data: { name: shelfName }
+  })
+)
+
+export const updateShelf = shelfName => (
+  $.ajax({
+    method: 'PATCH',
+    url: `api/shelves`,
+    data: { name: shelfName }
+  })
+)
+export const destroyShelf = shelfName => (
+  $.ajax({
+    method: 'PATCH',
     url: `api/shelves`,
     data: { name: shelfName }
   })

@@ -204,5 +204,55 @@ books = Book.create!(
       description: 'An historic literary event: the publication of a newly discovered novel, the earliest known work from Harper Lee, the beloved, bestselling author of the Pulitzer Prize-winning classic, To Kill a Mockingbird.Originally written in the mid-1950s, Go Set a Watchman was the novel Harper Lee first submitted to her publishers before To Kill a Mockingbird. Assumed to have been lost, the manuscript was discovered in late 2014.Go Set a Watchman features many of the characters from To Kill a Mockingbird some twenty years later. Returning home to Maycomb to visit her father, Jean Louise Finch?Scout?struggles with issues both personal and political, involving Atticus, society, and the small Alabama town that shaped her.',
       publish_date: 'July 14, 2015',
     },
+    {
+      title: 'The Night Circus',
+      author: 'Erin Morgenstern',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51RTGwqu9SL._SX327_BO1,204,203,200_.jpg',
+      description: "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not. Within the black-and-white striped canvas tents is an utterly unique experience full of breathtaking amazements. It is called Le Cirque des Rêves, and it is only open at night.
+
+      But behind the scenes, a fierce competition is underway—a duel between two young magicians, Celia and Marco, who have been trained since childhood expressly for this purpose by their mercurial instructors. Unbeknownst to them, this is a game in which only one can be left standing, and the circus is but the stage for a remarkable battle of imagination and will. Despite themselves, however, Celia and Marco tumble headfirst into love—a deep, magical love that makes the lights flicker and the room grow warm whenever they so much as brush hands.
+
+      True love or not, the game must play out, and the fates of everyone involved, from the cast of extraordinary circus per­formers to the patrons, hang in the balance, suspended as precariously as the daring acrobats overhead.
+
+      Written in rich, seductive prose, this spell-casting novel is a feast for the senses and the heart.",
+      publish_date: 'September 13, 2011',
+    },
+    {
+      title: 'North and South ',
+      author: 'Elizabeth Gaskell',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/514g3hj8gqL._SX322_BO1,204,203,200_.jpg',
+      description: "Set in the fictional industrial town of Milton in the North of England, “North and South” is Elizabeth Gaskell’s 1855 novel that contrasts the different ways of life in the two respective regions of England. In the North the emerging industrialized society is sharply contrasted with the aging gentry of the agrarian based South. The plot of “North and South” centers around the main character Margaret Hale, the daughter of a non-conformist minister who moves his family to an industrial town in the North after a split from the Church of England. Here the impact of the industrial revolution can be fully seen as tensions between workers and employers over poor working conditions and the growing divide between the rich industrialists and poor factory workers escalate into violent conflict. Originally serialized between September 1854 and January 1855 in Charles Dickens’s “Household Words”, “North and South” was one of the first and most important social novels to address the changes brought about by the industrial revolution in England. This edition is printed on premium acid-free paper and includes an introduction by Adolphus William Ward.",
+      publish_date: '1855',
+    },
+    {
+      title: "Howl's Moving Castle",
+      author: 'Diana Wynne Jones',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51gKAVDyENL._SX334_BO1,204,203,200_.jpg',
+      description: "Sophie has the great misfortune of being the eldest of three daughters, destined to fail miserably should she ever leave home to seek her fate. But when she unwittingly attracts the ire of the Witch of the Waste, Sophie finds herself under a horrid spell that transforms her into an old lady. Her only chance at breaking it lies in the ever-moving castle in the hills: the Wizard Howl's castle. To untangle the enchantment, Sophie must handle the heartless Howl, strike a bargain with a fire demon, and meet the Witch of the Waste head-on. Along the way, she discovers that there's far more to Howl—and herself—than first meets the eye.",
+      publish_date: '1986',
+    },
+    {
+      title: 'Pride and Prejudice',
+      author: 'Jane Austen',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51uWyPyyBnL._SX331_BO1,204,203,200_.jpg',
+      description: "1813. The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of the British Regency. Elizabeth is the second of five daughters of a country gentleman living near the fictional town of Meryton in Hertfordshire, near London. Page 2 of a letter from Jane Austen to her sister Cassandra (11 June 1799) in which she first mentions Pride and Prejudice, using its working title First Impressions. Set in England in the early 19th century, Pride and Prejudice tells the story of Mr and Mrs Bennet's five unmarried daughters after the rich and eligible Mr Bingley and his status-conscious friend, Mr Darcy, have moved into their neighbourhood. While Bingley takes an immediate liking to the eldest Bennet daughter, Jane, Darcy has difficulty adapting to local society and repeatedly clashes with the second-eldest Bennet daughter, Elizabeth. Though Austen set the story at the turn of the 19th century, it retains a fascination for modern readers, continuing near the top of lists of "most loved books." It has become one of the most popular novels in English literature, selling over 20 million copies, and receives considerable attention from literary scholars. Modern interest in the book has resulted in a number of dramatic adaptations and an abundance of novels and stories imitating Austen's memorable characters or themes.",
+      publish_date: 'January 28, 1813',
+    },
+    {
+      title: "Sense and Sensibility",
+      author: 'Jane Austen',
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/414hu6Q4xFL._SX324_BO1,204,203,200_.jpg",
+      description: "Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister Elinor's warning that her impulsive behaviour leaves her open to gossip and innuendo. Meanwhile Elinor, always sensitive to social convention, is struggling to conceal her own romantic disappointment, even from those closest to her. Through their parallel experience of love - and its threatened loss - the sisters learn that sense must mix with sensibility if they are to find personal happiness in a society where status and money govern the rules of love. This edition also includes explanatory notes and textual variants between first and second edition.
+
+      For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+      publish_date: '1811',
+    },
+    # {
+    #   title: ,
+    #   author: ,
+    #   img_url: ,
+    #   description: ,
+    #   publish_date: ,
+    # },
   ]
 )
