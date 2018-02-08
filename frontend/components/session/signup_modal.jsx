@@ -26,15 +26,7 @@ class SignupModal extends React.Component {
 
   handleSubmit(event){
     event.preventDefault();
-    this.props.createNewUser(this.state).then(() => this.props.history.push('/chirps'));
-    this.clearSessionErrors();
-    // home page will replace chirps
-  }
-
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.loggedIn) {
-      this.props.history.push('/');
-    }
+    this.props.createNewUser(this.state).then(() => this.clearSessionErrors());
   }
 
   clearSessionErrors(){

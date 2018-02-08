@@ -24,9 +24,17 @@ export const fetchShelves = () => dispatch => (
 );
 
 export const fetchShelf = id => dispatch => (
-  ShelfApiUtil.fetchShelf().then(serverShelf => dispatch(receiveShelf(serverShelf)))
+  ShelfApiUtil.fetchShelf(id).then(serverShelf => dispatch(receiveShelf(serverShelf)))
 );
 
-export const removeShelf = shelfId => dispatch => (
-  ShelfApiUtil.removeShelf(shelfId).then( shelfId => dispatch(removeShelf(shelfId)))
+export const createShelf = shelf => dispatch => (
+  ShelfApiUtil.createShelf(shelf).then(shelf => dispatch(receiveShelf(shelf)))
+);
+
+export const updateShelf = shelf => dispatch => (
+  ShelfApiUtil.updateShelf(shelf).then(shelf => dispatch(receive(shelf)))
+)
+
+export const deleteShelf = shelfId => dispatch => (
+  ShelfApiUtil.destroyShelf(shelfId).then( shelfId => dispatch(removeShelf(shelfId)))
 );

@@ -15,7 +15,7 @@ export const createShelf = shelfName => (
   $.ajax({
     method: 'POST',
     url: `api/shelves`,
-    data: { name: shelfName }
+    data: { shelf: shelfName }
   })
 )
 
@@ -26,11 +26,10 @@ export const updateShelf = shelfName => (
     data: { name: shelfName }
   })
 )
-export const destroyShelf = shelfName => (
+export const destroyShelf = shelfId => (
   $.ajax({
-    method: 'PATCH',
-    url: `api/shelves`,
-    data: { name: shelfName }
+    method: 'DELETE',
+    url: `api/shelves/${shelfId}`,
   })
 )
 

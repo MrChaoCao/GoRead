@@ -30,7 +30,13 @@ header {
 
     .session-form {
       margin-top: 5px;
-}
+
+      .errors {
+        li{
+          color: red;
+        }
+      }
+
       label input {
         font-size: 10px;
         border: #999 1px solid;
@@ -53,6 +59,14 @@ header {
         padding: 2px;
         font-size: 10px;
       }
+}
+
+.signup-form{
+  li {
+    color: red
+  }
+}
+
 
   }
 }

@@ -19,7 +19,7 @@ class Api::ShelvesController < ApplicationController
 
   def destroy
     @shelf = Shelf.find(params[:id])
-    if @bookshelf.destroy
+    if @shelf.destroy
       render "api/shelves/show"
     else
       render json: @shelf.errors.full_messages, status: 404
