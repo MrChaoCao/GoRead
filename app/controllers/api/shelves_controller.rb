@@ -9,6 +9,7 @@ class Api::ShelvesController < ApplicationController
 
   def create
     @shelf = Shelf.new(shelf_params)
+    @shelf.user_id = current_user.id
     if @shelf.save
       render "api/shelves/show"
     else
@@ -36,6 +37,6 @@ class Api::ShelvesController < ApplicationController
 
 private
   def shelf_params
-    params.require(:shelf).permit(:shelf_title, :user_id)
+    params.require(:shelf).permit(:name)
   end
 end

@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom';
 import BookShowModal from './book_show_modal'
 
 const mapStateToProps = (state, ownProps) => {
-  console.log(ownProps);
   return {
     loggedIn: Boolean(state.session.currentUser),
     book: ownProps.book,
