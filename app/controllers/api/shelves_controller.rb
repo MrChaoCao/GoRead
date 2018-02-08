@@ -4,33 +4,37 @@ class Api::ShelvesController < ApplicationController
   end
 
   def show
-    @shelf = Shelf.find(params[:id])
+    @shelf = current_user.shelves.find(params[:id])
   end
 
   def create
     @shelf = Shelf.new(shelf_params)
     if @shelf.save
-      render "api/:user_id/shelves"
+      render "api/shelves/show"
     else
-      render json: @shelf.errors.full_messages, status 422
+      render json: @shelf.errors.full_messages, status: 422
     end
   end
 
   def destroy
     @shelf = Shelf.find(params[:id])
-    @bookshelf.destroy!
-    render "api/:user_id/shelves"
+    if @bookshelf.destroy
+      render "api/shelves/show"
+    else
+      render json: @shelf.errors.full_messages, status: 404
+    end
   end
 
   def update
     @shelf = Shelf.find(params[:id])
     if @shelf.update(shelf_params)
-      render "api/:user_id/shelves"
+      render "api/shelves/show"
     else
-      render json: @shelf.errors.full_messages, status 422
+      render json: @shelf.errors.full_messages, status: 422
     end
   end
 
+private
   def shelf_params
     params.require(:shelf).permit(:shelf_title, :user_id)
   end

@@ -2,7 +2,8 @@ class Api::ShelfMembershipsController < ApplicationController
   def create
     @shelf_membership = ShelfMembership.new(shelf_membership_params)
     if @shelf_membership.save
-      render :show
+      @shelf = @shelf_membership.shelf
+      render json: 'api/shelves/show'
     else
       render json: @shelf_membership.errors.full_messages, status: 401
     end
@@ -12,7 +13,8 @@ class Api::ShelfMembershipsController < ApplicationController
     @shelf_membership = Shelf.find_by(shelf_membership_params)
     if @shelf_membership
       @shelf_membership.destroy
-      render :show
+      @shelf = @shelf_membership.shelf
+      render json: 'api/shelves/show'
     else
       render json: ["Book is not in this collection"], status: 404
     end
