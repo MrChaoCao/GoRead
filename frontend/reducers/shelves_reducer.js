@@ -9,7 +9,7 @@ export default(state = {}, action) => {
 
   switch (action.type) {
     case RECEIVE_ALL_SHELVES:
-      return merge({}, action.shelves });
+      return merge({}, action.shelves);
     case RECEIVE_SHELF:
       return merge({}, state, {[action.shelf.id]: action.shelf});
     case REMOVE_SHELF:
@@ -20,5 +20,3 @@ export default(state = {}, action) => {
       return state;
   }
 };
-
-export default ShelvesReducer;

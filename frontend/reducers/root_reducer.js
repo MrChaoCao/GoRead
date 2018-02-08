@@ -8,5 +8,5 @@ export default combineReducers({
   session: sessionReducer,
   session_errors: sessionErrorsReducer,
   books: booksReducer,
-  shelves: shelvesREducer,
+  shelves: shelvesReducer,
 })
