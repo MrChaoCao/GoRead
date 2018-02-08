@@ -91,5 +91,118 @@ books = Book.create!(
       As one sibling is forced into exile, another attempts to flee the continent, while others struggle to escape certain death, either by working grueling hours on empty stomachs in the factories of the ghetto or by hiding as gentiles in plain sight. Driven by an unwavering will to survive and by the fear that they may never see one another again, the Kurcs must rely on hope, ingenuity, and inner strength to persevere. ',
       publish_date: 'February 14, 2017',
     },
+    {
+      title: 'The Martian',
+      author: 'Andy Weir',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/41i9zBwEU0L._SX322_BO1,204,203,200_.jpg',
+      description: "Six days ago, astronaut Mark Watney became one of the first people to walk on Mars.
+
+      Now, he's sure he'll be the first person to die there.
+
+      After a dust storm nearly kills him and forces his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way to even signal Earth that he’s alive—and even if he could get word out, his supplies would be gone long before a rescue could arrive.
+
+      Chances are, though, he won't have time to starve to death. The damaged machinery, unforgiving environment, or plain-old \"human error\" are much more likely to kill him first.
+
+      But Mark isn't ready to give up yet. Drawing on his ingenuity, his engineering skills—and a relentless, dogged refusal to quit—he steadfastly confronts one seemingly insurmountable obstacle after the next. Will his resourcefulness be enough to overcome the impossible odds against him?",
+      publish_date: '2001',
+    },
+    {
+      title: 'Kings of Infinite Space',
+      author: 'James Hynes',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51ICX3QgDxL._SX331_BO1,204,203,200_.jpg',
+      description: "Paul Trilby is having a bad day. If he were to be honest with himself, Paul Trilby would have to admit that he's having a bad life. His wife left him. Three subsequent girlfriends left him. He's fallen from a top-notch university teaching job, to a textbook publisher, to, eventually, working as a temp writer for the Texas Department of General Services. And even here, in this land of carpeted partitions and cheap lighting fixtures, Paul cannot escape the curse his life has become. For it is not until he begins a tentative romance with the office's sassy mail girl that he begins to notice things are truly wrong. Strange sounds come from the air conditioning vents, the ceiling bulges, a body disappears. Mysterious men lurk about town, wearing thick glasses and pocket protectors...
+
+      Kings of Infinite Space is a hilarious and horrifying spoof on our everyday lives and gives true voice to the old adage, \"Work is Hell.\"",
+      publish_date: 'April 3, 2004',
+    },
+    {
+      title: 'The Illustrated Man',
+      author: 'Ray Bradbury',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51HgWYJWo2L._SX308_BO1,204,203,200_.jpg',
+      description: 'Ray Bradbury brings wonders alive. For this peerless American storyteller, the most bewitching force in the universe is human nature. In these eighteen startling tales unfolding across a canvas of tattooed skin, living cities take their vengeance, technology awakens the most primal natural instincts, and dreams are carried aloft in junkyard rockets. Provocative and powerful, The Illustrated Man is a kaleidoscopic blending of magic, imagination, and truth—as exhilarating as interplanetary travel, as maddening as a walk in a million-year rain, and as comforting as simple, familiar rituals on the last night of the world.',
+      publish_date: '1951',
+    },
+    {
+      title: 'The Way of Kings',
+      author: 'Brian Sanderson',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/516LVWmpRbL._SX303_BO1,204,203,200_.jpg',
+      description: 'Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them. One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable.',
+      publish_date: 'August 31, 2010',
+    },
+    {
+      title: 'The Man Who Folded Himself',
+      author: 'David Gerrold',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51Wz9z1XwKL._SX331_BO1,204,203,200_.jpg',
+      description: "This classic work of science fiction is widely considered to be the ultimate time-travel novel. When Daniel Eakins inherits a time machine, he soon realizes that he has enormous power to shape the course of history. He can foil terrorists, prevent assassinations, or just make some fast money at the racetrack. And if he doesn't like the results of the change, he can simply go back in time and talk himself out of making it! But Dan soon finds that there are limits to his powers and forces beyond his control. ",
+      publish_date: '1973',
+    },
+    {
+      title: 'The Phantom Tollbooth',
+      author: 'Norton Juster',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51KMrmZeUPL._SX340_BO1,204,203,200_.jpg',
+      description: 'For Milo, everything’s a bore. When a tollbooth mysteriously appears in his room, he drives through only because he’s got nothing better to do. But on the other side, things seem different. Milo visits the Island of Conclusions (you get there by jumping), learns about time from a ticking watchdog named Tock, and even embarks on a quest to rescue Rhyme and Reason! Somewhere along the way, Milo realizes something astonishing. Life is far from dull. In fact, it’s exciting beyond his wildest dreams. . . .',
+      publish_date: '1961',
+    },
+    {
+      title: 'The Alchemist',
+      author: 'Paulo Coelho',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/516c6gUQLaL._SX329_BO1,204,203,200_.jpg',
+      description: "Combining magic, mysticism, wisdom and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations.
+
+      Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.",
+      publish_date: '1988',
+    },
+    {
+      title: 'House of Leaves',
+      author: 'Mark Z. Danielewski',
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/418rxNCl2rL._SX372_BO1,204,203,200_.jpg",
+      description: "Years ago, when House of Leaves was first being passed around, it was nothing more than a badly bundled heap of paper, parts of which would occasionally surface on the Internet. No one could have anticipated the small but devoted following this terrifying story would soon command. Starting with an odd assortment of marginalized youth -- musicians, tattoo artists, programmers, strippers, environmentalists, and adrenaline junkies -- the book eventually made its way into the hands of older generations, who not only found themselves in those strangely arranged pages but also discovered a way back into the lives of their estranged children.
+
+      Now, for the first time, this astonishing novel is made available in book form, complete with the original colored words, vertical footnotes, and newly added second and third appendices.
+
+      The story remains unchanged, focusing on a young family that moves into a small home on Ash Tree Lane where they discover something is terribly wrong: their house is bigger on the inside than it is on the outside.
+
+      Of course, neither Pulitzer Prize-winning photojournalist Will Navidson nor his companion Karen Green was prepared to face the consequences of that impossibility, until the day their two little children wandered off and their voices eerily began to return another story -- of creature darkness, of an ever-growing abyss behind a closet door, and of that unholy growl which soon enough would tear through their walls and consume all their dreams.",
+      publish_date: 'March 7, 2000',
+    },
+    {
+      title: 'The curious incident of the dog in the night-time',
+      author: 'Mark Haddon',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/41bz6juMwiL._SX323_BO1,204,203,200_.jpg',
+      description: "Christopher John Francis Boone knows all the countries of the world and their capitals and every prime number up to 7,057. He relates well to animals but has no understanding of human emotions. He cannot stand to be touched. And he detests the color yellow.
+
+      This improbable story of Christopher's quest to investigate the suspicious death of a neighborhood dog makes for one of the most captivating, unusual, and widely heralded novels in recent years.",
+      publish_date: '2003',
+    },
+    {
+      title: 'Good Poems',
+      author: 'Garrison Keillor',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51%2BxLmcJ4pL._SX320_BO1,204,203,200_.jpg',
+      description: "Every day people tune in to The Writer's Almanac on public radio and hear Garrison Keillor read them a poem. And here, for the first time, is an anthology of poems from the show, chosen by Keillor for their wit, their frankness, their passion, their \"utter clarity in the face of everything else a person has to deal with at 7 a.m.\"
+
+      Good Poems includes verse about lovers, children, failure, everyday life, death, and transcendance. It features the work of classic poets, such as Emily Dickinson, Walt Whitman, and Robert Frost, as well as the work of contemporary greats such as Howard Nemerov, Charles Bukowski, Donald Hall, Billy Collins, Robert Bly, and Sharon Olds. It's a book of poems for anybody who loves poetry whether they know it or not.",
+      publish_date: 'September 30, 2002',
+    },
+    {
+      title: 'The Poisonwood Bible',
+      author: 'Barbara Kingsolver',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51IvQ1MrWjL._SX330_BO1,204,203,200_.jpg',
+      description: "The Poisonwood Bible is a story told by the wife and four daughters of Nathan Price, a fierce, evangelical Baptist who takes his family and mission to the Belgian Congo in 1959. They carry with them everything they believe they will need from home, but soon find that all of it—from garden seeds to Scripture—is calamitously transformed on African soil. What follows is a suspenseful epic of one family's tragic undoing and remarkable reconstruction over the course of three decades in postcolonial Africa.",
+      publish_date: '1998',
+    },
+    {
+      title: 'The Narrow Road to the Deep North',
+      author: 'Richard Flanagan',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/41TXrLUXuoL._SX311_BO1,204,203,200_.jpg',
+      description: 'In The Narrow Road to the Deep North, Richard Flanagan displays the gifts that have made him one of the most acclaimed writers of contemporary fiction. Moving deftly from a Japanese POW camp to present-day Australia, from the experiences of Dorrigo Evans and his fellow prisoners to that of the Japanese guards, this savagely beautiful novel tells a story of the many forms of love and death, of war and truth, as one man comes of age, prospers, only to discover all that he has lost.',
+      publish_date: 'September 23, 2013',
+    },
+    {
+      title: 'Go Set a Watchman',
+      author: 'Harper Lee',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51sbtF6KaPL._SX329_BO1,204,203,200_.jpg',
+      description: 'An historic literary event: the publication of a newly discovered novel, the earliest known work from Harper Lee, the beloved, bestselling author of the Pulitzer Prize-winning classic, To Kill a Mockingbird.Originally written in the mid-1950s, Go Set a Watchman was the novel Harper Lee first submitted to her publishers before To Kill a Mockingbird. Assumed to have been lost, the manuscript was discovered in late 2014.Go Set a Watchman features many of the characters from To Kill a Mockingbird some twenty years later. Returning home to Maycomb to visit her father, Jean Louise Finch?Scout?struggles with issues both personal and political, involving Atticus, society, and the small Alabama town that shaped her.',
+      publish_date: 'July 14, 2015',
+    },
   ]
 )
