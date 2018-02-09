@@ -510,5 +510,57 @@ books = Book.create!(
       In this edition, a new preface by Lucasta Miller, author of The Brontë Myth, looks at the ways in which the novel has been interpreted, from Charlotte Brontë onwards. This complements Pauline Nestor's introduction, which discusses changing critical receptions of the novel, as well as Emily Brontë's influences and background.",
       publish_date: '1847',
     },
+    {
+      title: 'The Sound and the Fury',
+      author: 'William Faulkner',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/513mmYm5QFL._SX322_BO1,204,203,200_.jpg',
+      description: "The Sound and the Fury is the tragedy of the Compson family, featuring some of the most memorable characters in literature: beautiful, rebellious Caddy; the manchild Benjy; haunted, neurotic Quentin; Jason, the brutal cynic; and Dilsey, their black servant. Their lives fragmented and harrowed by history and legacy, the character’s voices and actions mesh to create what is arguably Faulkner’s masterpiece and  one of the greatest novels of the twentieth century.
+
+
+      “I give you the mausoleum of all hope and desire. . . . I give it to you not that you may remember time, but that you might forget it now and then for a moment and not spend all of your breath trying to conquer it. Because no battle is ever won he said. They are not even fought. The field only reveals to man his own folly and despair, and victory is an illusion of philosophers and fools.”",
+      publish_date: '1929',
+    },
+    {
+      title: 'Lolita',
+      author: 'Vladimir Nabokov',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/41s2G6WxLvL._SX322_BO1,204,203,200_.jpg',
+      description: "Awe and exhiliration--along with heartbreak and mordant wit--abound in Lolita, Nabokov's most famous and controversial novel, which tells the story of the aging Humbert Humbert's obsessive, devouring, and doomed passion for the nymphet Dolores Haze. Lolita is also the story of a hypercivilized European colliding with the cheerful barbarism of postwar America. Most of all, it is a meditation on love--love as outrage and hallucination, madness and transformation.",
+      publish_date: '1955',
+    },
+    {
+      title: "Alice's Adventures in Wonderland",
+      author: 'Lewis Carroll',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/61w8x8Hrb-L._SX390_BO1,204,203,200_.jpg',
+      description: "n 1862 Charles Lutwidge Dodgson, a shy Oxford mathematician with a stammer, created a story about a little girl tumbling down a rabbit hole. Thus began the immortal adventures of Alice, perhaps the most popular heroine in English literature. Countless scholars have tried to define the charm of the Alice books–with those wonderfully eccentric characters the Queen of Hearts, Tweedledum, and Tweedledee, the Cheshire Cat, Mock Turtle, the Mad Hatter et al.–by proclaiming that they really comprise a satire on language, a political allegory, a parody of Victorian children’s literature, even a reflection of contemporary ecclesiastical history. Perhaps, as Dodgson might have said, Alice is no more than a dream, a fairy tale about the trials and tribulations of growing up–or down, or all turned round–as seen through the expert eyes of a child.",
+      publish_date: 'November 26, 1865',
+    },
+    {
+      title: 'To the Lighthouse',
+      author: 'Virginia Woolf',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/512RH0o4H2L._SX325_BO1,204,203,200_.jpg',
+      description: "“Radiant as [To the Lighthouse] is in its beauty, there could never be a mistake about it: here is a novel to the last degree severe and uncompromising. I think that beyond being about the very nature of reality, it is itself a vision of reality.”—Eudora Welty, from the Introduction.The serene and maternal Mrs. Ramsay, the tragic yet absurd Mr. Ramsay, and their children and assorted guests are on holiday on the Isle of Skye. From the seemingly trivial postponement of a visit to a nearby lighthouse, Woolf constructs a remarkable, moving examination of the complex tensions and allegiances of family life and the conflict between men and women.",
+      publish_date: 'May 5, 1927',
+    },
+    {
+      title: 'Great Expectations',
+      author: 'Charles Dickens',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/410lfZOQI6L._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "
+      Charles Dickens's Great Expectations charts the course of orphan Pip Pirrip's life as it is transformed by a vast, mysterious inheritance. A terrifying encounter with the escaped convict Abel Magwitch in a graveyard on the wild Kent marshes; a summons to meet the bitter, decrepit Miss Havisham and her beautiful, cold-hearted ward Estella at Satis House; the sudden generosity of a mysterious benefactor - these form a series of events that change the orphaned Pip's life forever, and he eagerly abandons his humble station as an apprentice to blacksmith Joe Gargery, beginning a new life as a gentleman. Charles Dickens's haunting late novel depicts Pip's education and development through adversity as he discovers the true nature of his identity, and his 'great expectations'. This definitive version uses the text from the first published edition of 1861. It includes a map of Kent in the early nineteenth century, and appendices on Dickens's original ending and his working notes, giving readers an illuminating glimpse into the mind of a great novelist at work.
+
+      For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+      publish_date: '1861',
+    },
+    {
+      title: 'The Catcher in the Rye',
+      author: 'J.D. Salinger',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51ZxSRLRUpL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "The hero-narrator of THE CATCHER IN THE RYE is an ancient child of sixteen, a native New Yorker named Holden Caulfield. Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days.
+
+      The boy himself is at once too simple and too complex for us to make any final comment about him or his story. Perhaps the safest thing we can say about Holden is that he was born in the world not just strongly attracted to beauty but, almost, hopelessly impaled on it.
+
+      There are many voices in this novel: children's voices, adult voices, underground voices--but Holden's voice is the most eloquent of all. Transcending his own vernacular, yet remaining marvelously faithful to it, he issues a perfectly articulated cry of mixed pain and pleasure. However, like most lovers and clowns and poets of the higher orders, he keeps most of the pain to, and for, himself. The pleasure he gives away, or sets aside, with all his heart. It is there for the reader who can handle it to keep.",
+      publish_date: '1951',
+    },
   ]
 )
