@@ -1,4 +1,5 @@
 const path = require('path');
+var webpack = require("webpack");
 
 var prodPlugins = [
   new webpack.DefinePlugin({
