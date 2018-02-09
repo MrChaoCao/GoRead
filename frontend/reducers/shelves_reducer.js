@@ -11,7 +11,7 @@ export default(state = {}, action) => {
 
   switch (action.type) {
     case RECEIVE_CURRENT_USER:
-      return merge({}, state, action.payload.shelves);
+      return action.payload.shelves;
     case RECEIVE_ALL_SHELVES:
       return merge({}, action.shelves);
     case RECEIVE_SHELF:

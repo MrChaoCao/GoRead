@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
+//containers
 import GreetingContainer from './greeting/greeting_container';
 import NavbarContainer from './navbar/navbar_container';
 import BookIndexContainer from './books/book_index_container';
@@ -20,17 +21,14 @@ const App = () => (
     <header>
       <Link to="/" className = "header-link">
         <img className="icon" src={window.staticImages.bookicon}></img>
-        Go read
+        Go Read
       </Link>
       <NavbarContainer/>
     </header>
-    <BookIndexContainer/>
 
 
     <Switch>
-      <Route exact path="/" component={tempHome}/>
-      <AuthRoute exact path="/signup" component={SignupModalContainer} />
-
+      <Route exact path="/" component={BookIndexContainer}/>
       <Route render={ () => <Redirect to="/"/> }/>
     </Switch>
   </div>

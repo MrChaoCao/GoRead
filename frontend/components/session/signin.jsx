@@ -25,13 +25,14 @@ class Signin extends React.Component {
     this.clearSessionErrors();
   }
 
-  demoUser(){
+  demoUser(event){
+    event.preventDefault();
     return (event) => {
       this.clearSessionErrors();
       this.props.login(
        {
-          'username': "demouser",
-          'password': "password",
+          username: "demouser",
+          password: "password",
         }
       )
     }
@@ -69,7 +70,7 @@ class Signin extends React.Component {
       <div className="session-form">
         {this.props.location.pathname === '/' && this.renderErrors()}
 
-        <form onSubmit ={this.handleSubmit} >
+        <form >
           <label>
             <input
               type="text"
@@ -86,8 +87,8 @@ class Signin extends React.Component {
               onChange={this.handleInput('password')}/>
           </label>
 
-          <button>Sign In</button>
-          <button onClick={this.demoUser()}>Demo</button>
+          <button onClick={this.handleSubmit}>Sign In</button>
+          <button onClick={this.demoUser(event)}>Demo</button>
 
         </form>
       </div>

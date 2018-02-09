@@ -4,10 +4,16 @@ import SigninContainer from '../session/signin_container';
 import SignupModalContainer from '../session/signup_modal_container';
 
 const sessionLinks = () => (
-  <nav className="nav-right">
-    <SigninContainer/>
-    <SignupModalContainer/>
-  </nav>
+  <div className="nav-bar">
+    <nav className="nav-right">
+      <SigninContainer/>
+      <SignupModalContainer/>
+    </nav>
+
+    <nav className="nav-general">
+
+    </nav>
+  </div>
 );
 
 const userIcons = (currentUser, logout) => (

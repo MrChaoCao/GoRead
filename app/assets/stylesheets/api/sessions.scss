@@ -3,15 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 header {
+  height: 50px;
   background-color: white;
   display: flex;
+  align-items: flex-end;
+  flex-direction: row;
   justify-content: space-between;
-  margin-top: 3px;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
 
   .header-link {
-    margin-top: 10px;
+    min-width: 150px;
+    margin-top: 8px;
     font-size: 25px;
     display: flex;
   }
@@ -20,18 +23,18 @@ header {
     display: flex;
     width: 30px;
     height: 30px;
-    margin: 0px 6px 0px 15px;
+    margin: 0px 14px 8px 15px;
   }
 
   .nav-right {
-
+    margin-top: 13px;
     }
     .signup-button:hover{
       cursor: pointer;
     }
 
     .session-form {
-      margin-top: 5px;
+      min-width: 280px;
 
       .errors {
         li{

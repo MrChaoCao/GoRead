@@ -32,7 +32,7 @@ export const clearErrors = () => ({
 
 
 export const createNewUser = (formUser) => dispatch => (
-  createUser(formUser).then(user => dispatch(receiveCurrentUser(user)), err => dispatch(receiveErrors(err.responseJSON))
+  createUser(formUser).then(payload => dispatch(receiveCurrentUser(payload)), err => dispatch(receiveErrors(err.responseJSON))
 ));
 
 export const login = formUser => dispatch => ( postSession(formUser).then(payload => dispatch(receiveCurrentUser(payload)), err => dispatch(receiveErrors(err.responseJSON))
