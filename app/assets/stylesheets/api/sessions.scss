@@ -24,6 +24,8 @@ header {
   }
 
   .nav-right {
+
+    }
     .signup-button:hover{
       cursor: pointer;
     }
@@ -59,17 +61,30 @@ header {
         padding: 2px;
         font-size: 10px;
       }
+  }
+}
+
+html {
+    background-color: #fafafa;
 }
 
 .signup-form{
-  li {
-    color: red
-  }
-}
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 400px;
 
-
+  .form{
+    justify-content: space-between;
+    label input {
+      font-size: 14px;
+      border: #999 1px solid;
+      padding: 8px;
+      border-radius: 3px;
+      background-color: #fafafa;
+      margin: 0px 3px 3px 0px;
+      width: 80px;
+    }
   }
-}
-html {
-    background-color: #fafafa;
 }

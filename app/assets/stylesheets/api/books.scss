@@ -3,19 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .book-tableau{
   margin: 0px 20px 0px 20px;
-  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
   .index-book{
     display: inline-block;
-    object-fit: contain;
-    margin: 5px;
     font-size: 10px;
+    overflow: hidden;
+    margin: 3px;
 
     .book-cover{
-      max-width: 200px;
-      max-height: 300px;
-      min-width: 133.33px;
-      min-height: 200px;
+      width: 200px;
+      height: 300px;
     }
 
     .book-cover:hover{
