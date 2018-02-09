@@ -38,11 +38,22 @@ class BookShowModal extends React.Component {
           onRequestClose={this.closeModal}
           style={style}
           >
-            {this.props.book.title}
-            {this.props.book.author}
-            {this.props.book.publish_date}
-            <img src={this.props.book.img_url} ></img>
+          <div className="book-show-box">
+
+            <div className="not-description">
+              <img src={this.props.book.img_url}/>
+              <div className= "book-info">
+                <p>Title: {this.props.book.title}</p>
+                <p>Author: {this.props.book.author}</p>
+                <p>Publish Date: {this.props.book.publish_date}</p>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+          <p className="book-description">
             {this.props.book.description}
+          </p>
+          </div>
         </Modal>
       </div>
     )

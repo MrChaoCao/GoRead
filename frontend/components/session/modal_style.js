@@ -11,7 +11,7 @@ const style={
       position: 'absolute',
       top: '100px',
       left: '450px',
-      right: 'calc(100vw - 800px)',
+      right: 'calc(100vw - 700px)',
       bottom: 'calc(100vh - 350px)',
       border: '1px solid #ccc',
       background: '#fafafa',

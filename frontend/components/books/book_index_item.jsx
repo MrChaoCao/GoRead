@@ -4,10 +4,7 @@ import BookShowModalContainer from './book_show_modal_container';
 
 const BookIndexItem = ({ book }) => (
   <div className="index-book">
-
     <BookShowModalContainer book={ book }/>
-
-
   </div>
 );
 

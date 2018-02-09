@@ -9,10 +9,10 @@ const style={
     },
     content: {
       position: 'absolute',
-      top: '40px',
+      top: '80px',
       left: '200px',
-      right: '200px',
-      bottom: '30px',
+      right: 'calc(100vw - 800px)',
+      bottom: 'calc(100vh - 650px)',
       border: '1px solid #ccc',
       background: '#fafafa',
       overflow: 'auto',

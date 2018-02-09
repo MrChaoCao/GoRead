@@ -18,11 +18,33 @@
       height: 300px;
     }
 
-    .book-cover:hover{
-      background-color: #fafafa;
-      transform: scale(1.01);
-      cursor: pointer;
-      box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
+  }
+}
+
+.book-cover:hover{
+  box-shadow: 5px 10px black;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.book-show-box {
+  .not-description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .book-info{
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 80px;
+    }
+
+    img{
+      display: flex;
+      width: 120px;
+      height: 180px;
     }
   }
 }
