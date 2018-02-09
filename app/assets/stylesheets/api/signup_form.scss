@@ -1,0 +1,25 @@
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  p {
+    display: flex;
+  }
+
+  li {
+    color: #ff8080;
+    display: flex;
+  }
+
+  input {
+    font-size: 14px;
+    border: #999 1px solid;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #fafafa;
+    margin: 0px 3px 3px 0px;
+    width: 180px;
+    display: flex;
+  }
+}

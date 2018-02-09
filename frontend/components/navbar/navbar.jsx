@@ -18,7 +18,7 @@ const sessionLinks = () => (
 
 const userIcons = (currentUser, logout) => (
 	<nav className="nav-right">
-    <h2 className="header-name"> {currentUser.username}</h2>
+    <h2 className="header-name"> Hello, {currentUser.username}</h2>
     <button className="header-button" onClick={logout}>Log Out</button>
 	</nav>
 );

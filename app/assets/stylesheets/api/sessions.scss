@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 header {
-  height: 50px;
+  height: 60px;
   background-color: white;
   display: flex;
   align-items: flex-end;
@@ -28,16 +28,27 @@ header {
 
   .nav-right {
     margin-top: 13px;
+    font-size: 14px;
+    }
+    .signup-button{
+      font-size: 10px;
     }
     .signup-button:hover{
       cursor: pointer;
     }
-
+    .header-name {
+      margin-right: 20px;
+      margin-bottom: 3px;
+    }
+    .header-button {
+      margin-bottom: 7px;
+    }
     .session-form {
       min-width: 280px;
 
       .errors {
         li{
+          font-size: 11px;
           color: #ff8080;
         }
       }
@@ -51,7 +62,6 @@ header {
         margin: 0px 3px 3px 0px;
         width: 80px;
       }
-
 
       button {
         margin-left: 0px;
@@ -69,25 +79,4 @@ header {
 
 html {
     background-color: #fafafa;
-}
-
-.signup-form{
-  display: block;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-around;
-  min-width: 400px;
-
-  .form{
-    justify-content: space-between;
-    label input {
-      font-size: 14px;
-      border: #999 1px solid;
-      padding: 8px;
-      border-radius: 3px;
-      background-color: #fafafa;
-      margin: 0px 3px 3px 0px;
-      width: 80px;
-    }
-  }
 }

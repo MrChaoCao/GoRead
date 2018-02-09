@@ -6,4 +6,12 @@ const mapStateToProps = (state, ownProps) => ({
   shelves: Object.values(state.shelves)
 });
 
-export default connect(mapStateToProps, null)(ShelfIndex);
+const mapDispatchToProps = (state, ownProps) => ({
+  fetchShelves: () => dispatch(fetchShelves()),
+  fetchShelf: (id) => dispatch(fetchShelf(id)),
+  createShelf: shelf => dispatch(createShelf(shelf)),
+  updateShelf: shelf => dispatch(updateShelf(shelf)),
+  deleteShelf: shelfId => dispatch(deleteShelf(shelfId))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(ShelfIndex);

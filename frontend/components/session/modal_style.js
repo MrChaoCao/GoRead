@@ -10,9 +10,9 @@ const style={
     content: {
       position: 'absolute',
       top: '100px',
-      left: '450px',
-      right: 'calc(100vw - 700px)',
-      bottom: 'calc(100vh - 350px)',
+      left: '550px',
+      right: 'calc(100vw - 875px)',
+      bottom: 'calc(100vh - 500px)',
       border: '1px solid #ccc',
       background: '#fafafa',
       overflow: 'auto',

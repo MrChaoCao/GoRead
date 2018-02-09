@@ -66,31 +66,29 @@ class SignupModal extends React.Component {
           style={style}>
 
           <div className="signup-form">
-            <button className="closebutt" onClick={this.closeModal}>x</button>
             <h2>Sign Up!</h2>
             {this.renderErrors()}
             <br/>
             <form>
-              <label>Username:
+              <p>Username:</p>
                 <input
                   type="text"
                   value={this.state.username}
                   onChange={this.handleInput('username')}/>
-              </label>
               <br/>
-              <label>Email:
+              <p>Email:</p>
                 <input
                   type="text"
                   value={this.state.email}
                   onChange={this.handleInput('email')}/>
-              </label>
+
               <br/>
-              <label>Password:
+              <p>Password:</p>
                 <input
                   type="password"
                   value={this.state.password}
                   onChange={this.handleInput('password')}/>
-              </label>
+
               <br/>
               <button onClick={this.handleSubmit}>Sign Up</button>
             </form>
