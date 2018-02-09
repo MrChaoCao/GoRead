@@ -5,23 +5,23 @@ Go Read was inspired by Goodreads and was developed as a tool to supplement the 
 
 Go Read was designed and executed in eight days in an effort apply and cement the skills I learned in the App Academy core curriculum.
 
-##Concept
+## Concept
 The goal of the Go Read project is to provide the user with an easy means to record books they've read as well as encourage them to read more by helping them discover new books, and provide motivation to read more.
 
 Where Go Read seeks to differentiate itself from Goodreads however is in its simple site design. Goodreads barrages the user with so many features that it makes it difficult for the user to navigate the site and very difficult for new users to learn to use the site.
 
-##Technologies
+## Technologies
 In deference to the short time frame available, Rails was selected to build the backend of this project and Heroku was selected as the web host.
 
 The Frontend Redux state was configured with separate action creators and reducers for sessions, books, shelves, and reviews to normalize the project state and reduce redundant data transmission throughout the site.
 
-##Features
+## Features
 * User authentication is secured with the ruby BCrypt gem
 * Account creation is not a prerequisite for site navigation
 * Users are only prompted to signup or login if they wish to persist changes such as creating a shelf or marking a book as read.
 * Go read emphasizes single page design and uses a modal element to display individual books with enriched details rather than redirecting users to a new page for every book.
 
-##Minimalist Design
+## Minimalist Design
 In an effort to simplify browsing Go Read shows the user all available books upon navigation to the page.
 (https://imgur.com/G4EwZyn)
 
@@ -30,7 +30,7 @@ The user is free to navigate the site without logging in until they attempt to d
 Rather than interrupt site navigation with redirects to new pages Go Read displays the majority of its content directly on the root page and displays a modal with
 (https://imgur.com/HIGlreh)
 
-##Implementation highlights
+## Implementation highlights
 To improve the user experience the login option is immediately available to the user upon navigation to the site and is removed upon logout.
 
 ```
@@ -59,7 +59,7 @@ const Navbar = ({ currentUser, logout }) => (
 );
 ```
 
-##Planned Future Features
+## Planned Future Features
 * Shelves: Users will be able to sort books into shelves to help manage books they are interested in.
 * Authors and Tags: Books will have authors and tags added to assist the user in finding new books to read.
 * Book Status: Users will be able to mark books as read or as favorites.
