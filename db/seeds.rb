@@ -420,25 +420,95 @@ books = Book.create!(
       publish_date: "October 15, 1952",
     }
     {
-      title: ,
-      author: ,
-      img_url: ,
-      description: ,
+      title: 'Don Quixote',
+      author: 'Miguel de Cervantes',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51YmEwWvUqL._SX331_BO1,204,203,200_.jpg',
+      description: "Idle reader: thou mayest believe me without any oath that I would this book, as it is the child of my brain, were the fairest, gayest, and cleverest that could be imagined. But I could not counteract Nature's law that everything shall beget its like; and what, then, could this sterile, illtilled wit of mine beget but the story of a dry, shrivelled, whimsical offspring, full of thoughts of all sorts and such as never came into any other imagination—just what might be begotten in a prison, where every misery is lodged and every doleful sound makes its dwelling? Tranquillity, a cheerful retreat, pleasant fields, bright skies, murmuring brooks, peace of mind, these are the things that go far to make even the most barren muses fertile, and bring into the world births that fill it with wonder and delight. Sometimes when a father has an ugly, loutish son, the love he bears him so blindfolds his eyes that he does not see his defects, or, rather, takes them for gifts and charms of mind and body, and talks of them to his friends as wit and grace. I, however—for though I pass for the father, I am but the stepfather to "Don Quixote"—have no desire to go with the current of custom, or to implore thee, dearest reader, almost with tears in my eyes, as others do, to pardon or excuse the defects thou wilt perceive in this child of mine. Thou art neither its kinsman nor its friend, thy soul is thine own and thy will as free as any man's, whate'er he be, thou art in thine own house and master of it as much as the king of his taxes and thou knowest the common saying, "Under my cloak I kill the king;" all which exempts and frees thee from every consideration and obligation, and thou canst say what thou wilt of the story without fear of being abused for any ill or rewarded for any good thou mayest say of it.",
+      publish_date: '1615',
+    }
+    {
+      title: "Swann's Way: In Search of Lost Time",
+      author: 'Marcel Proust',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51me-a8zgcL._SX331_BO1,204,203,200_.jpg',
+      description: "In Search of Lost Time follows the narrator's recollections of childhood and experiences into adulthood during late 19th century to early 20th century aristocratic France, while reflecting on the loss of time and lack of meaning to the world.[1] The novel began to take shape in 1909. Proust continued to work on it until his final illness in the autumn of 1922 forced him to break off. Proust established the structure early on, but even after volumes were initially finished he kept adding new material and edited one volume after another for publication. The last three of the seven volumes contain oversights and fragmentary or unpolished passages, as they existed only in draft form at the death of the author; the publication of these parts was overseen by his brother Robert.
+
+      The work was published in France between 1913 and 1927. Proust paid for the publication of the first volume (by the Grasset publishing house) after it had been turned down by leading editors who had been offered the manuscript in longhand.",
+      publish_date: '1913',
+    }
+    {
+      title: "Ulysses",
+      author: 'James Joyce',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/416pRbo0gIL._SX348_BO1,204,203,200_.jpg',
+      description: "Ulysses is a modernist novel by Irish writer James Joyce. It was first serialised in parts in the American journal The Little Review from March 1918 to December 1920, and then published in its entirety by Sylvia Beach in February 1922, in Paris. It is considered to be one of the most important works of modernist literature, and has been called \"a demonstration and summation of the entire movement\". According to Declan Kiberd, \"Before Joyce, no writer of fiction had so foregrounded the process of thinking.\" However, even proponents of Ulysses such as Anthony Burgess have described the book as \"inimitable, and also possibly mad\". Ulysses chronicles the peripatetic appointments and encounters of Leopold Bloom in Dublin in the course of an ordinary day, 16 June 1904. Ulysses is the Latinised name of Odysseus, the hero of Homer's epic poem Odyssey, and the novel establishes a series of parallels between its characters and events and those of the poem.",
+      publish_date: 'February 2, 1922',
+    }
+    {
+      title: 'The Odyssey',
+      author: 'Homer',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/511ztJeNubL._SX324_BO1,204,203,200_.jpg',
+      description: "The Odyssey (/ˈɒdəsi/;[1] Greek: Ὀδύσσεια Odýsseia, pronounced [o.dýs.sej.ja] in Classical Attic) is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work ascribed to Homer. The Odyssey is fundamental to the modern Western canon; it is the second-oldest extant work of Western literature, while the Iliad is the oldest. Scholars believe the Odyssey was composed near the end of the 8th century BC, somewhere in Ionia, the Greek coastal region of Anatolia.[2]
+
+      The poem mainly focuses on the Greek hero Odysseus (known as Ulysses in Roman myths), king of Ithaca, and his journey home after the fall of Troy. It takes Odysseus ten years to reach Ithaca after the ten-year Trojan War.[3] In his absence, it is assumed Odysseus has died, and his wife Penelope and son Telemachus must deal with a group of unruly suitors, the Mnesteres (Greek: Μνηστῆρες) or Proci, who compete for Penelope's hand in marriage.",
+      publish_date: '8th Century BCE',
+    }
+    {
+      title: 'War and Peace',
+      author: 'Lev Nikolayevich Tolstoy',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/510UE7bvHoL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.
+
+      As Napoleon’s army invades, Tolstoy brilliantly follows characters from diverse backgrounds—peasants and nobility, civilians and soldiers—as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving—and human—figures in world literature.",
+      publish_date: '1867',
+    }
+    {
+      title: 'Moby Dick',
+      author: 'Herman Melville',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51%2BOBiexfHL._SX312_BO1,204,203,200_.jpg',
+      description: "Moby-Dick; or, The Whale is a novel by Herman Melville, in which Ishmael narrates the monomaniacal quest of Ahab, captain of the whaler Pequod, for revenge on the albino sperm whale Moby Dick, which on a previous voyage destroyed Ahab's ship and severed his leg at the knee. Although the novel was a commercial failure and out of print at the time of the author's death in 1891, its reputation grew immensely during the twentieth century. D. H. Lawrence called it \"one of the strangest and most wonderful books in the world,\" and \"the greatest book of the sea ever written.\" Moby-Dick is considered a Great American Novel and an outstanding work of the Romantic period in America and the American Renaissance. \"Call me Ishmael\" is one of world literature's most famous opening sentences. The product of a year and a half of writing, the book is dedicated to Nathaniel Hawthorne, \"in token of my admiration for his genius,\" and draws on Melville's experience at sea, on his reading in whaling literature, and on literary inspirations such as Shakespeare and the Bible. The detailed and realistic descriptions of whale hunting and of extracting whale oil, as well as life aboard ship among a culturally diverse crew, are mixed with exploration of class and social status, good and evil, and the existence of God. ",
+      publish_date: 'October 18, 1851',
+    }
+    {
+      title: 'The Divine Comedy',
+      author: 'Dante Aligieri',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51EMFsLkTuL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "Comprised of three books - Inferno, Purgatorio, Paradiso - Dante's Divine Comedy follows Dante Alighieri's epic poems follows Dante through the different sections of the afterlife; hell, purgatory, and heaven.
+
+      Divine Comedy began as a project in 1308 and ended in 1320, the year before Dante's death. Told in first person, Dante follows the poet Virgil through the rings of hell and purgatory. The Divine Comedy is a highly allegorical text and renowned as one of the most influential Italian masterpieces in literature.",
+      publish_date: '1320',
+    }
+    {
+      title: 'Hamlet',
+      author: "William Shakespeare",
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51lfguOo-UL._SX385_BO1,204,203,200_.jpg',
+      description: "Hamlet is Shakespeare's most popular, and most puzzling, play. It follows the form of a \"revenge tragedy,\" in which the hero, Hamlet, seeks vengeance against his father's murderer, his uncle Claudius, now the king of Denmark. Much of its fascination, however, lies in its uncertainties.
+
+      Among them: What is the Ghost--Hamlet's father demanding justice, a tempting demon, an angelic messenger? Does Hamlet go mad, or merely pretend to? Once he is sure that Claudius is a murderer, why does he not act? Was his mother, Gertrude, unfaithful to her husband or complicit in his murder?",
+      publish_date: '1603',
+    }
+    {
+      title: 'The Adventures of Huckleberry Finn',
+      author: 'Mark Twain',
+      img_url: 'https://images-na.ssl-images-amazon.com/images/I/51N9m0VC0IL._SY291_BO1,204,203,200_QL40_.jpg',
+      description: "Adventures of Huckleberry Finn is a novel by Mark Twain, first published in the United Kingdom in December 1884 and in the United States in February 1885. Commonly named among the Great American Novels, the work is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism. It is told in the first person by Huckleberry \"Huck\" Finn, a friend of Tom Sawyer and narrator of two other Twain novels (Tom Sawyer Abroad and Tom Sawyer, Detective). It is a direct sequel to The Adventures of Tom Sawyer. The book is noted for its colorful description of people and places along the Mississippi River. Set in a Southern antebellum society that had ceased to exist about twenty years before the work was published, Adventures of Huckleberry Finn is an often scathing satire on entrenched attitudes, particularly racism.",
+      publish_date: 'December 10, 1884',
+    }
+    {
+      title: "Madame Bovary",
+      author: "Gustave Flaubert ",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/516HZDElAyL._SX316_BO1,204,203,200_.jpg",
+      description: "Unhappily married to a devoted, clumsy provincial doctor, Emma revolts against the ordinariness of her life by pursuing voluptuous dreams of ecstasy and love. But her sensuous and sentimental desires lead her only to suffering corruption and downfall. A brilliant psychological portrait, Madame Bovary searingly depicts the human mind in search of transcendence. Who is Madame Bovary? Flaubert's answer to this question was superb: \"Madame Bovary, c'est moi.\" Acclaimed as a masterpiece upon its publication in 1857, the work catapulted Flaubert to the ranks of the world's greatest novelists. This volume, with its fine translation by Lowell Bair, a perceptive introduction by Leo Bersani, and a complete supplement of essays and critical comments, is the indispensable Madame Bovary.",
       publish_date: ,
     }
     {
-      title: ,
-      author: ,
-      img_url: ,
-      description: ,
-      publish_date: ,
-    }
-    {
-      title: ,
-      author: ,
-      img_url: ,
-      description: ,
-      publish_date: ,
+      title: "Wuthering Heights",
+      author: "Emily Brontë",
+      img_url: "https://images-na.ssl-images-amazon.com/images/I/41OzRFukzLL._SY291_BO1,204,203,200_QL40_.jpg",
+      description: "Emily Brontë's only novel endures as a work of tremendous and far-reaching influence. The Penguin Classics edition is the definitive version of the text, edited with an introduction by Pauline Nestor.
+
+      Lockwood, the new tenant of Thrushcross Grange, situated on the bleak Yorkshire moors, is forced to seek shelter one night at Wuthering Heights, the home of his landlord. There he discovers the history of the tempestuous events that took place years before. What unfolds is the tale of the intense love between the gypsy foundling Heathcliff and Catherine Earnshaw. Catherine, forced to choose between passionate, tortured Heathcliff and gentle, well-bred Edgar Linton, surrendered to the expectations of her class. As Heathcliff's bitterness and vengeance at his betrayal is visited upon the next generation, their innocent heirs must struggle to escape the legacy of the past.
+
+      In this edition, a new preface by Lucasta Miller, author of The Brontë Myth, looks at the ways in which the novel has been interpreted, from Charlotte Brontë onwards. This complements Pauline Nestor's introduction, which discusses changing critical receptions of the novel, as well as Emily Brontë's influences and background.",
+      publish_date: '1847',
     }
   ]
 )
