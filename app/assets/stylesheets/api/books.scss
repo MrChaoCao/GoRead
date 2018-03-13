@@ -6,25 +6,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   .index-book{
-    display: inline-block;
-    font-size: 10px;
-    overflow: hidden;
-    margin: 3px;
+    display: flex;
+    padding: 5px;
+    flex-grow: 1;
 
     .book-cover{
       width: 200px;
       height: 300px;
+      border-radius: 3px;
+      transition: all .2s ease-in-out;
     }
 
+    .book-cover:hover{
+      box-shadow: 5px 5px 5px #6a6e75;
+      transform: scale(1.02);
+      cursor: pointer;
+    }
   }
-}
-
-.book-cover:hover{
-  box-shadow: 5px 10px black;
-  transform: scale(1.01);
-  cursor: pointer;
 }
 
 .book-show-box {
@@ -35,7 +36,6 @@
 
     .book-info{
       font-size: 18px;
-      display: flex;
       flex-direction: column;
       justify-content: center;
       padding-left: 80px;

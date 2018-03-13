@@ -10,8 +10,8 @@ const style={
     content: {
       position: 'absolute',
       top: '100px',
-      left: '550px',
-      right: 'calc(100vw - 875px)',
+      left: '32vw',
+      right: '32vw',
       bottom: 'calc(100vh - 500px)',
       border: '1px solid #ccc',
       background: '#fafafa',

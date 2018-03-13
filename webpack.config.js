@@ -10,11 +10,11 @@ var prodPlugins = [
       'NODE_ENV': JSON.stringify('production')
     }
   }),
-  new webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: true
-    }
-  })
+  // new webpack.optimize.UglifyJsPlugin({
+  //   compress: {
+  //     warnings: true
+  //   }
+  // })
 ];
 
 plugins = plugins.concat(
@@ -28,13 +28,14 @@ module.exports = {
     path: path.join(__dirname, 'app', 'assets', 'javascripts'),
     filename: 'bundle.js'
   },
+  watch: true,
   plugins: plugins,
   resolve: {
     extensions: ['.js', '.jsx']
   },
   devtool: 'source-maps',
   module: {
-    loaders: [
+    rules: [
     {
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
