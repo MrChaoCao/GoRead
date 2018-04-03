@@ -1,0 +1,18 @@
+#parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child {
+  margin: 10px 20px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .child {
+    width: 50%;
+  }
+}

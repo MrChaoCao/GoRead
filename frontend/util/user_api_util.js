@@ -3,7 +3,7 @@ export const fetchUser = (id) => (
     method: "GET",
     url: `api/users/${id}`
   })
-)
+);
 
 export const createUser = user => {
 
@@ -14,5 +14,5 @@ export const createUser = user => {
       url: `api/users`,
       data: { user },
     })
-  )
-}
+  );
+};
