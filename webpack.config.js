@@ -28,7 +28,7 @@ module.exports = {
     path: path.join(__dirname, 'app', 'assets', 'javascripts'),
     filename: 'bundle.js'
   },
-  watch: true,
+  watch: ['production', 'test'].indexOf(process.env.NODE_ENV) < 0,
   plugins: plugins,
   resolve: {
     extensions: ['.js', '.jsx']
