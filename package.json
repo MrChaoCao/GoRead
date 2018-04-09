@@ -27,7 +27,6 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "webpack",
     "webpack": "webpack",
     "test": "jest"
   },
