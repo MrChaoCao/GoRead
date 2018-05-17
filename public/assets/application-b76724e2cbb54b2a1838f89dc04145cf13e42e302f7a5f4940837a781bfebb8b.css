@@ -1,0 +1,418 @@
+/* line 4, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-tableau {
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* line 11, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-tableau .index-book {
+  display: flex;
+  padding: 5px;
+  flex-grow: 1;
+}
+/* line 16, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-tableau .index-book .book-cover {
+  width: 200px;
+  height: 300px;
+  border-radius: 3px;
+  transition: all .2s ease-in-out;
+}
+/* line 23, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-tableau .index-book .book-cover:hover {
+  box-shadow: 5px 5px 5px #6a6e75;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* line 32, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-show-box .not-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 37, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-show-box .not-description .book-info {
+  font-size: 18px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+}
+/* line 44, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/books.scss */
+.book-show-box .not-description img {
+  display: flex;
+  width: 120px;
+  height: 180px;
+}
+/* line 5, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 500;
+}
+/* line 15, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-link {
+  min-width: 150px;
+  margin-top: 8px;
+  font-size: 25px;
+  display: flex;
+}
+/* line 22, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 0px 14px 8px 15px;
+}
+/* line 29, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .nav-right {
+  margin-top: 13px;
+  font-size: 14px;
+}
+/* line 33, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .signup-button {
+  font-size: 10px;
+}
+/* line 36, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .signup-button:hover {
+  cursor: pointer;
+}
+/* line 39, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-name {
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+/* line 43, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-button {
+  margin-bottom: 7px;
+}
+/* line 46, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form {
+  min-width: 280px;
+}
+/* line 50, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form .errors li {
+  font-size: 11px;
+  color: #ff8080;
+}
+/* line 56, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form label input {
+  font-size: 10px;
+  border: #999 1px solid;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0px 3px 3px 0px;
+  width: 80px;
+}
+/* line 66, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form button {
+  margin-left: 0px;
+  background-color: white;
+  color: #999;
+  border-radius: 1px;
+  text-align: center;
+  width: 35px;
+  height: 15px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+/* line 80, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+html {
+  background-color: #fafafa;
+}
+/* line 1, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_form.scss */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+/* line 6, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_form.scss */
+.signup-form p {
+  display: flex;
+}
+/* line 10, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_form.scss */
+.signup-form li {
+  color: #ff8080;
+  display: flex;
+}
+/* line 15, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_form.scss */
+.signup-form input {
+  font-size: 14px;
+  border: #999 1px solid;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0px 3px 3px 0px;
+  width: 180px;
+  display: flex;
+}
+/* line 3, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_modal.scss */
+.ReactModal__Content.ReactModal__Content--after-open .signup-form {
+  font-size: 14px;
+}
+/* line 6, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_modal.scss */
+.ReactModal__Content.ReactModal__Content--after-open .signup-form h2 {
+  font-size: 20px;
+}
+/* line 10, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_modal.scss */
+.ReactModal__Content.ReactModal__Content--after-open .signup-form label input {
+  font-size: 10px;
+  border: #999 1px solid;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0px 3px 3px 0px;
+  width: 80px;
+}
+/* line 21, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_modal.scss */
+.ReactModal__Content.ReactModal__Content--after-open .signup-form button {
+  margin-left: 0px;
+  color: black;
+  border-radius: 1px;
+  text-align: center;
+  width: 55px;
+  height: 15px;
+  padding: 2px;
+  font-size: 12px;
+  border: 1px solid black;
+}
+/* line 33, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/signup_modal.scss */
+.ReactModal__Content.ReactModal__Content--after-open .signup-form .closebutt {
+  order: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: black;
+  padding: 2px;
+  font-size: 10px;
+  border: none;
+}
+/* line 3, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #000;
+  text-align: inherit;
+  text-decoration: none;
+  vertical-align: baseline;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+/* line 22, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 32, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  /*
+  Get rid of native styling. Read more here:
+  http://css-tricks.com/almanac/properties/a/appearance/
+  */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 47, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Clearfix */
+/* line 54, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 3, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #000;
+  text-align: inherit;
+  text-decoration: none;
+  vertical-align: baseline;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+/* line 22, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 32, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  /*
+  Get rid of native styling. Read more here:
+  http://css-tricks.com/almanac/properties/a/appearance/
+  */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 47, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Clearfix */
+/* line 54, /Users/chaocao/Desktop/goread/app/assets/stylesheets/reset.scss */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 5, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 500;
+}
+/* line 15, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-link {
+  min-width: 150px;
+  margin-top: 8px;
+  font-size: 25px;
+  display: flex;
+}
+/* line 22, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 0px 14px 8px 15px;
+}
+/* line 29, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .nav-right {
+  margin-top: 13px;
+  font-size: 14px;
+}
+/* line 33, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .signup-button {
+  font-size: 10px;
+}
+/* line 36, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .signup-button:hover {
+  cursor: pointer;
+}
+/* line 39, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-name {
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+/* line 43, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .header-button {
+  margin-bottom: 7px;
+}
+/* line 46, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form {
+  min-width: 280px;
+}
+/* line 50, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form .errors li {
+  font-size: 11px;
+  color: #ff8080;
+}
+/* line 56, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form label input {
+  font-size: 10px;
+  border: #999 1px solid;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0px 3px 3px 0px;
+  width: 80px;
+}
+/* line 66, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+header .session-form button {
+  margin-left: 0px;
+  background-color: white;
+  color: #999;
+  border-radius: 1px;
+  text-align: center;
+  width: 35px;
+  height: 15px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+/* line 80, /Users/chaocao/Desktop/goread/app/assets/stylesheets/api/sessions.scss */
+html {
+  background-color: #fafafa;
+}
